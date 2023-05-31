@@ -1,0 +1,35 @@
+﻿P3 v1.20.0
+
+1.20.0
+* Feature: - Added Planner record uplication.
+
+
+
+
+
+
+v1.4.0
+08-31-2020
+* Feature: - Added a subtask section for newly created planner and timesheet record.
+
+v1.3.0
+07-31-2020
+* Feature: - Added a subtask section for newly created planner and timesheet record.
+
+v1.2.0
+05-24-2020
+* Feature: - Added codes for identifying reloadable actions.
+* Feature: - Added JS codes for calling ajax calls to fetch projects data related on customers
+* Feature: - Added JS codes for selected customer.
+
+
+v1.1.0
+05-21-2020
+* Change "discussion" to Planner notes.
+* Feature: - Planner notes not editable on timesheet sections.
+
+
+v1.0.0
+05-05-2020
+* Designing of Planner and Timesheet Workflow
+* Feature: - Creating a pick list for customer, project, available task, timesheet comments and timesheet records

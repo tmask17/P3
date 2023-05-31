@@ -1,0 +1,22 @@
+﻿@using ITGWebTimeSheet2.Models
+@model IEnumerable<ITGWebTimeSheet2.Models.SubTask>
+
+
+@foreach (var subitem in Model)
+{
+    if (subitem.finish.ToString() == "1")
+    {
+
+<li id="li_@subitem.subid" class="list-group-item list-group-item-primary active linetext">
+    <input type="checkbox" class="hidden" style="margin-left:-20px;margin-right:10px;" checked />@Html.DisplayFor(modelItem => subitem.info)&nbsp;&nbsp;
+    <span class="state-icon glyphicon glyphicon-check "></span>
+</li>
+    }
+    else
+    {
+<li id="li_@subitem.subid" class="list-group-item">
+    <input type="checkbox" class="hidden" style="margin-left:-20px;margin-right:10px;" />@Html.DisplayFor(modelItem => subitem.info)&nbsp;&nbsp;
+    <span class="state-icon glyphicon glyphicon-unchecked"></span>
+</li>
+    }
+}
